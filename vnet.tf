@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "test" {
   name     = "my-resources"
-  location = "West Europe"
+  location = "Central US"
 }
 
 module "network" {
